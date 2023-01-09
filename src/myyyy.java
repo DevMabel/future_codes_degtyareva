@@ -16,7 +16,7 @@ public class myyyy{
         do {
             isCurrentX = !isCurrentX;
             drawCanvas();
-            System.out.println("знак " + (isCurrentX ? "X" : "O"));
+            System.out.println("ход " + (isCurrentX ? "X" : "O"));
             int n = getNumber();
             canvas[n] = isCurrentX ? 1 : 2;
             b = !isGameOver(n);
