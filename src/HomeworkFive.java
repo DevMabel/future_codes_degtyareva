@@ -1,8 +1,6 @@
 import java.util.Scanner;
 
 public class HomeworkFive {
-    import java.util.Scanner;
-
 
 
         public static int answercount = 0;

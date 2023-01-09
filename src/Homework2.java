@@ -13,7 +13,7 @@ import java.awt.event.MouseEvent;
 
 // ################ код ниже вам интересен ##################
 
-public class Rik  extends JPanel implements MouseInputListener, KeyListener {
+public class Homework2 extends JPanel implements MouseInputListener, KeyListener {
     private int ovalX = 200; // координата Х овала
     private int ovalY = 200; // координата Y овала
 

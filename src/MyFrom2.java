@@ -81,7 +81,7 @@ class MyForm extends JPanel implements MouseInputListener, KeyListener {
         g.fillOval(ovalX - 25, ovalY - 25, 50, 50);
     }
 
-    private void showGui() {
+    void showGui() {
         setPreferredSize(new Dimension(800, 600));
         JFrame frame = new JFrame("Программируем");
         frame.addKeyListener(this);
